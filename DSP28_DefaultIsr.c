@@ -1,4 +1,3 @@
-
 /****************************************************************************
 *
 *文件名：DSP28_DefaultIsr.c
@@ -16,6 +15,7 @@
 // INT13, INT14, NMI, XINT1, XINT2 的中断服务函数:
 //
 interrupt void INT13_ISR(void)     // INT13 或者 CPU-Timer1中断函数
+// CPUTimer1和CPUtimer2保留给实时操作系统使用( DSP BIOS)
 {
   // 在这里插入中断函数的代码
   

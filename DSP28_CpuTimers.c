@@ -81,7 +81,7 @@ void InitCpuTimers(void)
 
 void ConfigCpuTimer(struct CPUTIMER_VARS *Timer, float Freq, float Period)
 {
-	Uint32 	temp;
+	Uint32  temp;
 	
 	Timer->CPUFreqInMHz = Freq;
 	Timer->PeriodInUSec = Period;

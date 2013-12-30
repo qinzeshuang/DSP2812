@@ -1,4 +1,3 @@
-
 /*************************************************
 Copyright (C), 1988-2013, MagicFill Tech. Co., Ltd.
 
@@ -81,10 +80,9 @@ void InitSysCtrl(void)
 /*************************
   [User][Date:2013.12.26]    AD采样需打开 ADC和EVA
 *************************/
-	SysCtrlRegs.PCLKCR.bit.ADCENCLK = 1 ;    // ADC模块时钟功能
-	SysCtrlRegs.PCLKCR.bit.EVAENCLK = 1 ; 	 // EVA模块时钟功能
-//	SysCtrlRegs.PCLKCR.bit.EVBENCLK = 1 ;    // EVB模块时钟功能
-
+        SysCtrlRegs.PCLKCR.bit.ADCENCLK = 1 ;    // ADC模块时钟功能
+        SysCtrlRegs.PCLKCR.bit.EVAENCLK = 1 ; 	 // EVA模块时钟功能
+//       SysCtrlRegs.PCLKCR.bit.EVBENCLK = 1 ;    // EVB模块时钟功能
 
 //*************************
 
